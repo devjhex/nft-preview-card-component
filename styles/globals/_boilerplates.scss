@@ -1,0 +1,15 @@
+@use "colors" as c;
+@use "../utils/" as u;
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: c.$mainBG;
+    color: c.$white;
+    font-family:u.$font;
+}
