@@ -40,11 +40,35 @@ a, a:visited, a:active {
     margin-inline: auto;
     border-radius: 1rem;
   }
-  .nft-card .nft-image {
+  .nft-card .imgOne {
+    border-radius: 1rem;
+    position: relative;
     cursor: pointer;
+  }
+  .nft-card .imgOne .nft-image {
+    display: block;
     max-inline-size: 100%;
     block-size: auto;
     border-radius: 1rem;
+  }
+  .nft-card .imgOne .imgOverlay {
+    position: absolute;
+    background-color: rgba(0, 255, 247, 0.6);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    display: none;
+  }
+  .nft-card .imgOne .imgOverlay .icon-view {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .nft-card .imgOne:hover .imgOverlay {
+    display: block;
   }
   .nft-card__currency {
     cursor: pointer;
