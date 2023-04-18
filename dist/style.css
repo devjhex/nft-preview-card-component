@@ -140,7 +140,7 @@ a, a:visited, a:active {
     background-color: hsl(216, 50%, 16%);
     width: 350px;
     padding: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
     margin-inline: auto;
     border-radius: 1rem;
   }
@@ -242,5 +242,6 @@ a, a:visited, a:active {
 @media (min-width: 1440px) {
   .nft-card {
     width: 375px;
+    margin-top: 5rem;
   }
 }/*# sourceMappingURL=style.css.map */
