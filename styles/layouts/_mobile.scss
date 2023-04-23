@@ -1,12 +1,9 @@
 @use "../globals/colors" as c;
 
-@media (min-width:375px){
     .nft-card{
+        max-width: 335px;
         background-color: c.$cardBG;
-        width: 350px;
         padding: 1.5rem;
-        margin-top: 4rem;
-        margin-inline: auto;
         border-radius: 1rem;
         .imgOne{
             border-radius: 1rem;
@@ -113,4 +110,3 @@
         }
         
     }
-}
